@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e6d8;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --pragraph-color: #302d2c;
+}
+
+.div-bottom {
+  margin-bottom: 35px;
+}
+
+.element-bottom {
+  padding-bottom: 15px;
+}
+
+.hr {
+  border: none;
+  background-color: #dadada;
+  height: 2px;
+  border-radius: 8px;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 50px auto;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.imge {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imge img {
+  /* This Is Another Solution For Responsive Image .
+  vertical-align: bottom; */
+  display: block;
+  width: 100%;
+}
+
+.sec1 h1 {
+  font-family: "Young Serif", serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.sec1 p {
+  color: var(--pragraph-color);
+  line-height: 23px;
+}
+
+.sec2 {
+  background-color: #fff5fa;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.sec2 h3 {
+  font-size: 21px;
+  padding-bottom: 15px;
+  color: #7b284f;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 35px;
+}
+
+li::marker {
+  color: #7b284f;
+}
+
+.sec2 span {
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  padding-bottom: 15px;
+  color: #854632;
+}
+
+.sec3 li {
+  color: var(--pragraph-color);
+}
+
+.sec4 span {
+  font-weight: 600;
+  color: inherit;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+ol li {
+  font-size: 18px;
+  color: var(--pragraph-color);
+  line-height: 27px;
+  font-size: 16px;
+}
+
+ol li::marker {
+  color: #854632;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.last-hr {
+  border: none;
+  background-color: #dadada;
+  height: 2px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.last-table {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-table p {
+  padding-left: 40px;
+  flex: 1;
+}
+
+.last-table span {
+  font-weight: bold;
+  color: #854632;
+  flex: 1;
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin: 0;
+
+    background-color: #ffffff;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 0px;
+  }
+  div {
+    padding: 20px;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .imge {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .last-table p {
+    padding-left: 5px;
+    flex: 1;
+  }
+
+}
+
